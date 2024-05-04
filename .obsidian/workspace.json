@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jr Penetration Tester Path 🥷🏻/Web Hacking/SQL Injection.md",
+                "file": "Jr Penetration Tester Path 🥷🏻/Burp Suite 🍊/Burp Suite - Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jr Penetration Tester Path 🥷🏻/Web Hacking/SQL Injection.md",
+                "file": "Jr Penetration Tester Path 🥷🏻/Burp Suite 🍊/Burp Suite - Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jr Penetration Tester Path 🥷🏻/Web Hacking/SQL Injection.md",
+                "file": "Jr Penetration Tester Path 🥷🏻/Burp Suite 🍊/Burp Suite - Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jr Penetration Tester Path 🥷🏻/Web Hacking/SQL Injection.md"
+                "file": "Jr Penetration Tester Path 🥷🏻/Burp Suite 🍊/Burp Suite - Basics.md"
               }
             }
           }
@@ -147,21 +147,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90f068177bab4cea",
+  "active": "aacf1aba119d412f",
   "lastOpenFiles": [
     "Untitled.md",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/SQL Injection.md",
+    "Jr Penetration Tester Path 🥷🏻/Burp Suite 🍊/Burp Suite - Basics.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/SQL Injection.md",
+    "Jr Penetration Tester Path 🥷🏻/Burp Suite 🍊",
     "Pasted image 20240503235128.png",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/Command Injection.md",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/Cross-site Scripting.md",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/Server-Side Request Forgery.md",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/Logic Flaw.md",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/IDOR (Insecure Direct Object Reference).md",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/Authentication Bypass.md",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/Content Discovery.md",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/File Inclusion.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/Command Injection.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/Cross-site Scripting.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/Server-Side Request Forgery.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/Logic Flaw.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/IDOR (Insecure Direct Object Reference).md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/Authentication Bypass.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/Content Discovery.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/File Inclusion.md",
     "Pasted image 20240503184257.png",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/Subdomain Enumeration.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/Subdomain Enumeration.md",
     "Pasted image 20240502221254.png",
     "Pasted image 20240502205236.png",
     "Pasted image 20240502214850.png",
@@ -169,10 +171,10 @@
     "Pasted image 20240502214951.png",
     "Pasted image 20240503184210.png",
     "Pasted image 20240503184236.png",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking/Walking An Application.md",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻/Walking An Application.md",
     "Pasted image 20240503184139.png",
     "Jr Penetration Tester Path 🥷🏻/Images",
-    "Jr Penetration Tester Path 🥷🏻/Web Hacking",
+    "Jr Penetration Tester Path 🥷🏻/Web Hacking 🧑‍💻",
     "Jr Penetration Tester Path 🥷🏻"
   ]
 }

